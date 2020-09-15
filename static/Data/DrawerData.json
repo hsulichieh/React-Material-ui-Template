@@ -1,0 +1,57 @@
+[{
+	"SiteId" : 1,
+	"Id" : 3,
+	"MasterId" : 0,
+	"LinkPath" : "Menu-1",
+	"IconSrc" : "/img/source/icon/home.png",
+	"title" : {
+            "en-us" : "Menu-3",
+            "zh-cn" : "选单-3",
+		"zh-tw" : "選單-3"
+	},
+	"HasSub" : false,
+	"role" : [
+		{
+			"RoleId" : 0,
+			"rw" : 2
+		}
+	]
+},
+{
+	"SiteId" : 1,
+	"Id" : 2,
+	"MasterId" : 0,
+	"LinkPath" : "Menu-2",
+	"IconSrc" : "/img/source/icon/home.png",
+	"title" : {
+            "en-us" : "Menu-2",
+            "zh-cn" : "选单-2",
+		"zh-tw" : "選單-2"
+	},
+	"HasSub" : false,
+	"role" : [
+		{
+			"RoleId" : 0,
+			"rw" : 2
+		}
+	]
+},
+{
+	"SiteId" : 1,
+	"Id" : 1,
+	"MasterId" : 0,
+	"LinkPath" : "Menu-1",
+	"IconSrc" : "/img/source/icon/home.png",
+	"title" : {           
+            "en-us" : "Menu-1",
+            "zh-cn" : "选单-1",
+		"zh-tw" : "選單-1"
+	},
+	"HasSub" : false,
+	"role" : [
+		{
+			"RoleId" : 0,
+			"rw" : 2
+		}
+	]
+}]

@@ -1,0 +1,212 @@
+[
+{
+	"type" : "Table",
+	"title" : {
+		"en" : "Bar Chart123",
+		"tw" : "柱狀圖"
+	},
+	"color" : "#515453",
+	"plot_setting" : {
+		"suffix" : "NTD",
+		"series" : "",
+		"categories" : "",
+		"toggle" : false
+	},
+	"data_src" : [
+		"/static/Data/LineChart.json"
+	],
+	"position" : {
+		"x" : 0,
+		"y" : 0,
+		"width" : 12,
+		"height" : 8
+	},
+	"id" : 1,
+	"SiteId" : 1,
+	"DashId" : 18
+},
+{
+	"type" : "ECharts",
+	"title" : {
+		"en" : "Bar Chart123",
+		"tw" : "柱狀圖"
+	},
+	"color" : "#515453",
+	"plot_setting" : {
+		"suffix" : "NTD",
+		"series" : "",
+		"categories" : "",
+		"toggle" : false
+	},
+	"data_src" : [
+		"/static/Data/BarChart.json"
+	],
+	"position" : {
+		"x" : 9,
+		"y" : 0,
+		"width" : 3,
+		"height" : 7
+	},
+	"id" : 20,
+	"SiteId" : 1,
+	"DashId" : 1
+},
+
+{
+	"type" : "ECharts",
+	"title" : {
+		"en" : "Bar Chart123",
+		"tw" : "柱狀圖"
+	},
+	"color" : "#515453",
+	"plot_setting" : {
+		"suffix" : "NTD",
+		"series" : "",
+		"categories" : "",
+		"toggle" : false
+	},
+	"data_src" : [
+		"/static/Data/GaugeChart.json"
+	],
+	"position" : {
+		"x" : 6,
+		"y" : 7,
+		"width" : 3,
+		"height" : 7
+	},
+	"id" : 19,
+	"SiteId" : 1,
+	"DashId" : 1
+},
+{
+	"type" : "ECharts",
+	"title" : {
+		"en" : "Bar Chart123",
+		"tw" : "柱狀圖"
+	},
+	"color" : "#515453",
+	"plot_setting" : {
+		"suffix" : "NTD",
+		"series" : "",
+		"categories" : "",
+		"toggle" : false
+	},
+	"data_src" : [
+		"/static/Data/RadarChart.json"
+	],
+	"position" : {
+		"x" : 6,
+		"y" : 0,
+		"width" : 3,
+		"height" : 7
+	},
+	"id" : 18,
+	"SiteId" : 1,
+	"DashId" : 1
+},
+{
+	"type" : "ECharts",
+	"title" : {
+		"en" : "Bar Chart123",
+		"tw" : "柱狀圖"
+	},
+	"color" : "#515453",
+	"plot_setting" : {
+		"suffix" : "NTD",
+		"series" : "",
+		"categories" : "",
+		"toggle" : false
+	},
+	"data_src" : [
+		"/static/Data/RoseChart.json"
+	],
+	"position" : {
+		"x" : 0,
+		"y" : 7,
+		"width" : 3,
+		"height" : 7
+	},
+	"id" : 17,
+	"SiteId" : 1,
+	"DashId" : 1
+},
+
+{
+	"type" : "ECharts",
+	"title" : {
+		"en" : "Bar Chart123",
+		"tw" : "柱狀圖"
+	},
+	"color" : "#515453",
+	"plot_setting" : {
+		"suffix" : "NTD",
+		"series" : "",
+		"categories" : "",
+		"toggle" : false
+	},
+	"data_src" : [
+		"/static/Data/LineChart.json"
+	],
+	"position" : {
+		"x" : 3,
+		"y" : 7,
+		"width" : 3,
+		"height" : 7
+	},
+	"id" : 16,
+	"SiteId" : 1,
+	"DashId" : 1
+},
+
+{
+	"type" : "ECharts",
+	"title" : {
+		"en" : "Bar Chart123",
+		"tw" : "柱狀圖"
+	},
+	"color" : "#515453",
+	"plot_setting" : {
+		"suffix" : "NTD",
+		"series" : "",
+		"categories" : "",
+		"toggle" : false
+	},
+	"data_src" : [
+		"/static/Data/LineChart.json"
+	],
+	"position" : {
+		"x" : 3,
+		"y" : 0,
+		"width" : 3,
+		"height" : 7
+	},
+	"id" : 7,
+	"SiteId" : 1,
+	"DashId" : 1
+},
+{
+	"type" : "ECharts",
+	"title" : {
+		"en" : "Bar Chart123",
+		"tw" : "柱狀圖"
+	},
+	"color" : "#515453",
+	"plot_setting" : {
+		"suffix" : "NTD",
+		"series" : "",
+		"categories" : "",
+		"toggle" : false
+	},
+	"data_src" : [
+		"/static/Data/LineChart.json"
+	],
+	"position" : {
+		"x" : 0,
+		"y" : 0,
+		"width" : 3,
+		"height" : 7
+	},
+	"id" : 6,
+	"SiteId" : 1,
+	"DashId" : 1
+}]

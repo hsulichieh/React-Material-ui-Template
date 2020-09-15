@@ -1,0 +1,25 @@
+{
+  "backgroundColor":"transparent",
+  "animation":false,
+  "series": [
+    {
+      "type": "gauge",
+      "name": "业务指标",
+      "data": [
+        {
+          "value": 90,
+          "name": "完成率"
+        }
+      ],
+      "detail": {
+        "formatter": "90%"
+      }
+    }
+  ],
+    "toolbox": {
+    "feature": {
+      "restore": { },
+      "saveAsImage": { }
+    }
+  }
+}
