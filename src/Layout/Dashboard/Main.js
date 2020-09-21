@@ -70,7 +70,11 @@ class Main extends React.Component {
     const TheMain = dynamic(() => import('./Layout/TheMain'))
     const TheEditor = dynamic(() => import('./Layout/Editor/TheEditor'))
     const TheAddBoard = dynamic(() => import('./Layout/AddDashboard/TheAddBoard'))
+    const Thestate = dynamic(() => import('./Layout/System/EmptyTemplate/Thestate'))
+    const Thestateless = dynamic(() => import('./Layout/System/EmptyTemplate/Thestateless'))
+
     const MainType = this.props.router.query.index
+
     const TheKey = 1
 
     return (
@@ -82,6 +86,8 @@ class Main extends React.Component {
           {MainType === 'View' && <TheMain open={this.state.open} TheTheme={theme} TheClasses={classes} lang={this.state.lang} />}
           {MainType === 'Edit' && <TheEditor open={this.state.open} TheTheme={theme} TheClasses={classes} lang={this.state.lang} TheKey={TheKey} />}
           {MainType === 'AddDashboard' && <TheAddBoard open={this.state.open} TheTheme={theme} TheClasses={classes} lang={this.state.lang} />}
+          {MainType === 'Thestate' && <Thestate open={this.state.open} TheTheme={theme} TheClasses={classes} lang={this.state.lang} />}
+          {MainType === 'Thestateless' && <Thestateless open={this.state.open} TheTheme={theme} TheClasses={classes} lang={this.state.lang} />}
         <TheDrawer open={this.state.open} TheTheme={theme} TheClasses={classes} handleDrawerClose={this.handleDrawerClose} lang={this.state.lang} />
       </div>
       )

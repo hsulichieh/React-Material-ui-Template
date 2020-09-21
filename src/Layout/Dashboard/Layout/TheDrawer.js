@@ -104,12 +104,23 @@ export default function TheDrawer(props) {
     settree(treeobj)
   }
 
+  const [fetched, setFetched] = React.useState(false)
+
   useEffect(() => {
+    const ac = new AbortController()
+    setFetched(true)
     // componentDidMount 及 componentDidUpdate
-    FecthGetCtrl(APIUrl.Drawer).then((response) => listMain(response))
+    if (fetched) {
+      FecthGetCtrl(APIUrl.Drawer).then(
+        (response) => {
+          setFetched(true)
+          listMain(response)
+        },
+      )
+    }
     // componentDidUpdate 及 componentWillUnmount
     return (() => {
-
+      ac.abort()
     })
   }, [props.lang])
 

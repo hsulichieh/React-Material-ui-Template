@@ -48,7 +48,7 @@ export default function Head(props) {
   const getLang = () => (props.lang === 'zh-cn' ? '简中' : props.lang === 'zh-tw' ? '繁中' : props.lang === 'en-us' ? 'English' : 'N/A')
 
   const AddDashboard = () => {
-    Router.push(`/Dashboard/AddDashboard`)
+    Router.push('/Dashboard/AddDashboard')
   }
 
   return (
